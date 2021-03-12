@@ -10,7 +10,7 @@
                 width: 80%;
                 height: 100%;
                 padding: 0 15px;
-                background-color: rgba(255, 255, 255, 0.61);
+                background-color: #fff;
                 float: right;
                 border-radius: 15px;
             }
@@ -44,7 +44,8 @@
                 margin-right: auto;
                 margin-left: auto;
                 z-index: 1;
-                background-color: #d1d1d19c;
+                background: #14171d;
+                /* background-color: #d1d1d19c; */
                 align-items: center;
                 justify-content: center;
             }
@@ -52,7 +53,7 @@
             .login-overlay {
                 background-image: url(../images/fondo-1.jpg);
                 background-size: cover;
-                opacity: .05;
+                opacity: .02;
                 transition: 0.3s, border-radius 0.3s, opacity 0.3s;
                 height: 100%;
                 width: 100%;
@@ -67,10 +68,29 @@
             
             .logo {
                 width: 100%;
-                max-width: 160px;
+                max-width: 130px;
                 text-align: center;
                 margin: auto;
+                padding-top: 25px;
+                padding-bottom: 25px;
                 display: flex;
+            }
+            
+            .btn-primary {
+                background-color: #fbb605;
+                border: 0px;
+                color: #14171d;
+                font-weight: bold;
+            }
+            
+            .btn-primary:hover {
+                background-color: #e6a70a;
+                color: #14171d;
+            }
+            
+            .text-primary,
+            .text-primary a {
+                color: #14171d !important;
             }
             /*
 *
